@@ -1,0 +1,25 @@
+{
+    "name": "Shakespear insults",
+    "short_name": "Insults",
+    "start_url": "/",
+    "background_color": "#fef6e8",
+    "theme_color": "#be8d4c",
+    "orientation": "any",
+    "display": "standalone",
+    "dir": "ltr",
+    "lang": "en-US",
+    "description": "Insults by Shakespear",
+    "scope": "/",
+    "icons": [
+        {
+            "src": "images/android-icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/android-icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
