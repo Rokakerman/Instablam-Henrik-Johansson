@@ -1,0 +1,25 @@
+{
+  "name": "instablam-henrik-johansson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sw.js",
+  "dependencies": {
+    "build": "^0.1.4",
+    "serve": "^11.3.0",
+    "web-push": "^3.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rokakerman/Instablam-Henrik-Johansson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rokakerman/Instablam-Henrik-Johansson/issues"
+  },
+  "homepage": "https://github.com/Rokakerman/Instablam-Henrik-Johansson#readme"
+}

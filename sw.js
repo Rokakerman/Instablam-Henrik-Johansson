@@ -7,19 +7,19 @@ const urlB64ToUint8Array = base64String => {
       outputArray[i] = rawData.charCodeAt(i)
     }
     return outputArray
-  }
+}
 
 self.addEventListener('install', event => {
     event.waitUntil(
         caches.open('v1').then((cache) => {
-            return cache.addAll(['index.html', 'js/index.js', 'offline.html']);
+            return cache.addAll(['index.html', 'js/index.js', 'offline.html', 'stylesheet.css']);
         })
     )
     self.skipWaiting();
     console.log('SW installed at', new Date().toLocaleTimeString());
 });
 
-const publicKey = 'BFgDP3fQSu2V30Ty068kLMfNwOvCvv8Fhje6lY8l2EVpts3_spFO7_jJ-cj5DL0Hgmmj8f-h6UF4FeC_BJKuH_M';
+const publicKey = '';
 
 self.addEventListener('activate',  async event => {
     self.skipWaiting();
@@ -84,30 +84,6 @@ self.addEventListener('fetch', event => {
         return updateCache(event.request);
     }
 });
-
-/*self.addEventListener('fetch', event => {
-    //console.log(event.request.url);
-    if (!navigator.onLine) {
-        event.respondWith(
-            caches.match('/asewome/')
-            .then((response) => {
-                //console.log(event.request)
-                //console.log('RESPONSE: ', response);
-                if (response) {
-                    console.log(reponse);
-                    return response;
-                } else {
-                    //console.log('in the else')
-                    return caches.match(new Request('offline.html'));
-                }
-            })
-        )
-    } else {
-        console.log("Online!")
-        return updateCache(event.request);
-    }
-});*/
-
 
 async function updateCache(request) {
     console.log('In the updateCache: ', request)
