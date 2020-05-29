@@ -1,12 +1,11 @@
 {
   "name": "instablam-henrik-johansson",
   "version": "1.0.0",
-  "description": "",
   "main": "sw.js",
   "dependencies": {
     "build": "^0.1.4",
-    "serve": "^11.3.0",
-    "web-push": "^3.4.4"
+    "powershell": "^2.3.1",
+    "serve": "^11.3.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -21,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/Rokakerman/Instablam-Henrik-Johansson/issues"
   },
-  "homepage": "https://github.com/Rokakerman/Instablam-Henrik-Johansson#readme"
+  "homepage": "https://github.com/Rokakerman/Instablam-Henrik-Johansson#readme",
+  "description": ""
 }

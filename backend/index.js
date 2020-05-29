@@ -18,8 +18,8 @@ const saveToDatabase = async subscription => {
 }
 
 const vapidKeys = {
-    publicKey: 'BFgDP3fQSu2V30Ty068kLMfNwOvCvv8Fhje6lY8l2EVpts3_spFO7_jJ-cj5DL0Hgmmj8f-h6UF4FeC_BJKuH_M',
-    privateKey: 'urrNu5GJdU38GLHaTrt7tVQj_NexgbcR92lcJpDHTSQ'
+    publicKey: 'BGBkYa2lS4baTr2Hcz7RaUeB-h-V-qaZRAPM1Pn04nyATnUcHYJlGJcZ0wUlW6R1X6WR3sasXGlOT88iX1lE1kU',
+    privateKey: 'ZwpIbNTOPIqlqg0HkhzjZ3_iO-HTRy6qU7gaAXgr3_4'
 
 }
 

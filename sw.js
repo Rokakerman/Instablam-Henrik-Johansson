@@ -19,7 +19,7 @@ self.addEventListener('install', event => {
     console.log('SW installed at', new Date().toLocaleTimeString());
 });
 
-const publicKey = '';
+const publicKey = 'BGBkYa2lS4baTr2Hcz7RaUeB-h-V-qaZRAPM1Pn04nyATnUcHYJlGJcZ0wUlW6R1X6WR3sasXGlOT88iX1lE1kU';
 
 self.addEventListener('activate',  async event => {
     self.skipWaiting();

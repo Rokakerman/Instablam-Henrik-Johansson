@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script type="text/javascript" src="/js/caman.full.min.js"></script>
+    <link rel="manifest" href="manifest.json">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> Instablam </h1>
+    </header>
+    <main> 
+        <section class="interactive-camera">
+            <div class="camera-wrapper">
+                <img src="" id="frame" class="hide">
+                <a href="#" class="button" id="btn-download"></a>
+                <canvas id="canvas" class="hide"></canvas>
+                <video id="webcam" class="frame"></video>
+                <button class="hide" id='done'> <h2> DONE </h2> </button>
+            </div>
+            <div id="sliders" class="sliders">
+                <!-- sliders go here -->
+                <ul>
+                    <li> <label> Brightness </label> <input type="range" min="-50" max="50"  value="0" class="slider" id="bright"> </li>
+                    <li> <label> Exposure </label> <input type="range" min="-50" max="50" step="1" value="0" class="slider" id="exposure"> </li>
+                    <li> <label> Invert </label> <input type="range" min="0" max="1" step="1" value="0" class="slider" id="hue"> </li>
+                    <li> <label> Sepia </label> <input type="range" min="0" max="100" step="1" value="0" class="slider" id="sepia"> </li>
+                    <li> <label> Grayscale </label> <input type="range" min="0" max="1" step="1" value="0" class="slider" id="sharpen"> </li>
+                </ul>
+            </div>
+            <button id="capture-button"> <h2> Take Photo! </h2> </button>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+    <script type="text/javascript" src="/js/index.js"></script>
+</body>
+</html>
